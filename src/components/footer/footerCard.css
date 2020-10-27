@@ -1,0 +1,75 @@
+/* COLOURS */
+/* FONTS */
+/* HEADER */
+.footer-card {
+  width: 90%;
+  padding: 20px 20px 4px;
+  background-color: #e17f76;
+  border-radius: 10px;
+  margin: auto auto 15px;
+}
+
+.footer-card p {
+  line-height: 1.4;
+}
+
+.footer-card img {
+  height: 24px;
+  width: auto;
+  margin-right: 15px;
+}
+
+.footer-card a {
+  display: block;
+  margin-bottom: 16px;
+}
+
+.footer-card .social-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.footer-card .social-icons a {
+  margin-right: 15px;
+}
+
+.footer-card .social-icons a i {
+  font-size: 24px;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+
+.footer-card .social-icons a i:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+@media (min-width: 805px) {
+  .footer-card {
+    width: auto;
+    margin: auto;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    min-height: 245px;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+  }
+  .footer-card:last-of-type {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 990px) {
+  .footer-card {
+    min-height: 190px;
+  }
+}
+/*# sourceMappingURL=footerCard.css.map */

@@ -1,0 +1,122 @@
+/* COLOURS */
+/* FONTS */
+/* HEADER */
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shojumaru&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Rubik:wght@400;500;600;700&display=swap");
+@font-face {
+  font-family: thaiFont;
+  src: url("fonts/PeapodThai-BWBnV.ttf");
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+}
+
+.accessibility {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+body {
+  background-color: white;
+  font-family: "rubik", sans-serif;
+  color: #32373B;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+main {
+  margin-top: 65px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+main .wrapper {
+  height: 100%;
+}
+
+h1 {
+  font-size: 2.25rem;
+  margin: 0.67em 0;
+}
+
+h2 {
+  font-size: 1.875rem;
+  padding-bottom: 15px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.625rem;
+  padding-bottom: 15px;
+}
+
+h4 {
+  font-size: 1.375rem;
+  padding-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+h6 {
+  font-size: 1.125rem;
+  padding-bottom: 7px;
+}
+
+p {
+  margin: 0 0 1em 0;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+address {
+  font-style: normal;
+}
+
+ul {
+  list-style-type: none;
+  margin: inherit;
+  padding: inherit;
+}
+
+button {
+  outline: none;
+}
+
+@media (min-width: 1110px) {
+  body {
+    overflow: scroll;
+  }
+  main {
+    margin-top: 110px;
+  }
+}
+/*# sourceMappingURL=app.css.map */

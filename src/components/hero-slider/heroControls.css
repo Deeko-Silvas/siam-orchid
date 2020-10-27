@@ -1,0 +1,173 @@
+/* COLOURS */
+/* FONTS */
+/* HEADER */
+.hero-controls-container button {
+  width: 50px;
+  height: 50px;
+  background-color: #e17f76;
+  margin: auto 30px auto 0;
+}
+
+.hero-controls-container button.hero-right:hover {
+  -webkit-animation-name: right-bounce;
+          animation-name: right-bounce;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes right-bounce {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  15% {
+    -webkit-transform: translateX(20px);
+            transform: translateX(20px);
+  }
+  30% {
+    -webkit-transform: translateX(-2px);
+            transform: translateX(-2px);
+  }
+  45% {
+    -webkit-transform: translateX(15px);
+            transform: translateX(15px);
+  }
+  60% {
+    -webkit-transform: translateX(-2px);
+            transform: translateX(-2px);
+  }
+  75% {
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px);
+  }
+  90% {
+    -webkit-transform: translateX(-2px);
+            transform: translateX(-2px);
+  }
+  92% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes right-bounce {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  15% {
+    -webkit-transform: translateX(20px);
+            transform: translateX(20px);
+  }
+  30% {
+    -webkit-transform: translateX(-2px);
+            transform: translateX(-2px);
+  }
+  45% {
+    -webkit-transform: translateX(15px);
+            transform: translateX(15px);
+  }
+  60% {
+    -webkit-transform: translateX(-2px);
+            transform: translateX(-2px);
+  }
+  75% {
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px);
+  }
+  90% {
+    -webkit-transform: translateX(-2px);
+            transform: translateX(-2px);
+  }
+  92% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+.hero-controls-container button.hero-left:hover {
+  -webkit-animation-name: left-bounce;
+          animation-name: left-bounce;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes left-bounce {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  15% {
+    -webkit-transform: translateX(-20px);
+            transform: translateX(-20px);
+  }
+  30% {
+    -webkit-transform: translateX(2px);
+            transform: translateX(2px);
+  }
+  45% {
+    -webkit-transform: translateX(-15px);
+            transform: translateX(-15px);
+  }
+  60% {
+    -webkit-transform: translateX(2px);
+            transform: translateX(2px);
+  }
+  75% {
+    -webkit-transform: translateX(-10px);
+            transform: translateX(-10px);
+  }
+  90% {
+    -webkit-transform: translateX(2px);
+            transform: translateX(2px);
+  }
+  92% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes left-bounce {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  15% {
+    -webkit-transform: translateX(-20px);
+            transform: translateX(-20px);
+  }
+  30% {
+    -webkit-transform: translateX(2px);
+            transform: translateX(2px);
+  }
+  45% {
+    -webkit-transform: translateX(-15px);
+            transform: translateX(-15px);
+  }
+  60% {
+    -webkit-transform: translateX(2px);
+            transform: translateX(2px);
+  }
+  75% {
+    -webkit-transform: translateX(-10px);
+            transform: translateX(-10px);
+  }
+  90% {
+    -webkit-transform: translateX(2px);
+            transform: translateX(2px);
+  }
+  92% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+.hero-controls-container button i {
+  font-size: 30px;
+  color: white;
+}
+/*# sourceMappingURL=heroControls.css.map */

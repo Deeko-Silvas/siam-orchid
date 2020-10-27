@@ -1,0 +1,10 @@
+#googleMap {
+	height: 500px;
+	width: auto;
+}
+
+@media (min-width: 1110px) {
+    #googleMap {
+		position: relative;
+	}
+}

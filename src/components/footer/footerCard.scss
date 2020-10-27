@@ -1,0 +1,64 @@
+@import '../../variables.scss';
+
+.footer-card {
+    width: 90%;
+	padding: 20px 20px 4px;
+	background-color: $footer-card-background;
+	border-radius: 10px;
+    margin: auto auto 15px;
+
+    p {
+        line-height: 1.4;
+    }
+    
+    img {
+        height: 24px;
+        width: auto;
+        margin-right: 15px;
+    }
+
+    a {
+        display: block;
+        margin-bottom: 16px;
+    }
+
+    .social-icons {
+        display: flex;
+        flex-direction: row;
+        
+        a {
+            margin-right: 15px;
+
+            i {
+                font-size: 24px;
+
+                transition: transform 0.3s ease-in-out;
+
+                &:hover {
+                    transform: scale(1.2);
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 805px) {
+    .footer-card {
+        width: auto;
+		margin: auto;
+		margin-right: 10px;
+		margin-bottom: 30px;
+        min-height: 245px;
+        flex-grow: 1;
+        
+        &:last-of-type {
+            margin-right: 0;
+        }
+    }
+}
+
+@media (min-width: 990px) {
+    .footer-card {
+        min-height: 190px;
+    }
+}

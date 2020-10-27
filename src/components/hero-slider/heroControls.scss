@@ -1,0 +1,87 @@
+@import '../../variables.scss';
+
+.hero-controls-container {
+    button {
+        width: 50px;
+        height: 50px;
+        background-color: $nav-hover-color;
+        margin: auto 30px auto 0;
+
+        &.hero-right {
+            &:hover {
+                animation-name: right-bounce;
+                animation-duration: 2s;
+                animation-timing-function: ease-in-out;
+    
+                @keyframes right-bounce {
+                    0% {
+                        transform: translateX(0);
+                    }
+                    15% {
+                        transform: translateX(20px);
+                    }
+                    30% {
+                        transform: translateX(-2px);
+                    }
+                    45% {
+                        transform: translateX(15px);
+                    }
+                    60% {
+                        transform: translateX(-2px);
+                    }
+                    75% {
+                        transform: translateX(10px);
+                    }
+                    90% {
+                        transform: translateX(-2px);
+                    }
+                    92% {
+                        transform: translateX(0);
+                    }
+                }
+            }
+        }
+
+        &.hero-left {
+            &:hover {
+                animation-name: left-bounce;
+                animation-duration: 2s;
+                animation-timing-function: ease-in-out;
+    
+                @keyframes left-bounce {
+                    0% {
+                        transform: translateX(0);
+                    }
+                    15% {
+                        transform: translateX(-20px);
+                    }
+                    30% {
+                        transform: translateX(2px);
+                    }
+                    45% {
+                        transform: translateX(-15px);
+                    }
+                    60% {
+                        transform: translateX(2px);
+                    }
+                    75% {
+                        transform: translateX(-10px);
+                    }
+                    90% {
+                        transform: translateX(2px);
+                    }
+                    92% {
+                        transform: translateX(0);
+                    }
+                }
+            }
+        }
+
+
+
+        i {
+            font-size: 30px;
+            color: white;
+        }
+    }
+}

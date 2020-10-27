@@ -1,0 +1,84 @@
+/* COLOURS */
+/* FONTS */
+/* HEADER */
+.map-card {
+  background-color: white;
+  padding: 20px 30px;
+  color: black;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.map-card p {
+  margin-bottom: 10px;
+}
+
+.map-card i {
+  height: 16px;
+  width: auto;
+  margin-right: 5px;
+  width: 16px;
+}
+
+.map-card a {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.map-card div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.map-card div.address {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.map-card div a {
+  margin: auto;
+  margin-left: 0;
+}
+
+.map-card .directions-btn {
+  margin-left: 21px;
+  background-color: #e17f76;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+@media (max-height: 567px) {
+  .map-card {
+    margin-top: 30px;
+  }
+}
+
+@media (min-width: 990px) {
+  .map-card {
+    position: absolute;
+    z-index: 100;
+    width: auto;
+    margin: 2%;
+  }
+}
+/*# sourceMappingURL=mapCard.css.map */

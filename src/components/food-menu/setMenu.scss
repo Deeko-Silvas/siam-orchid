@@ -1,0 +1,44 @@
+@import '../../variables.scss';
+
+.set-menu-container {
+    width: 100%;
+    text-align: center;
+    margin: 30px auto 0;
+
+    &:nth-of-type(1n+2) {
+        border-top: 1px solid $footer-card-background;
+        padding-top: 30px;
+    }
+
+    h5 {
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .small-text{
+        font-size: 14px;
+    }
+
+    .price {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    h6 {
+        font-size: 22px;
+        font-weight: 700;
+        margin: 25px auto 10px;
+        text-decoration: underline;
+    }
+
+    p {
+        margin-bottom: 0px;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    strong {
+        font-size: 1.125rem;
+        font-weight: 700;
+    }
+}

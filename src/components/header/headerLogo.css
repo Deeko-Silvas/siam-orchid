@@ -1,0 +1,12 @@
+.main-logo {
+  height: 45px;
+}
+
+@media (min-width: 1110px) {
+  .main-logo {
+    height: 80px;
+    margin: 0;
+    margin-right: 5px;
+  }
+}
+/*# sourceMappingURL=headerLogo.css.map */

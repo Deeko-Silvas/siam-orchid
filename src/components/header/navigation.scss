@@ -1,0 +1,71 @@
+@import '../../variables.scss';
+
+header {
+    nav {
+        overflow: hidden;
+        height: 0;
+        transition: height 500ms ease;
+
+        &.open {
+            height: calc(100vh - 65px);
+        }
+
+        ul {
+            height: 70%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+
+            li {
+                padding: 10px 0;
+                width: 100%;
+                height: auto;
+
+                a {
+                    font-size: 20px;
+                    display: block;
+                    text-align: center;
+                    text-transform: uppercase;
+                    font-family: thaiFont, Arial, Helvetica, sans-serif;
+                    font-size: 28px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1110px) {
+    header {
+        nav {
+            padding-left: 0;
+            float: right;
+            height: auto;
+
+            ul {
+                flex-direction: row;
+                padding-left: 15px;
+                overflow: visible;
+                height: auto;
+                transition: none;
+
+                li {
+                    display: inline-block;
+                    height: auto;
+                    margin: auto;
+
+                    a {
+                        padding: 22px 20px;
+                        width: auto;
+                        transition: color 1s;
+
+                        &:hover {
+                            color: $nav-hover-color;
+                            transition: color 1s;
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

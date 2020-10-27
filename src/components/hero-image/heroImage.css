@@ -1,0 +1,36 @@
+/* COLOURS */
+/* FONTS */
+/* HEADER */
+.hero-image {
+  height: calc(100vh - 65px);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-image .blend {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 15%;
+}
+
+.hero-image .blend.top-blend {
+  top: 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(white), to(rgba(255, 255, 255, 0)));
+  background: linear-gradient(180deg, white 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.hero-image .blend.bottom-blend {
+  bottom: 0;
+  background: -webkit-gradient(linear, left bottom, left top, from(white), to(rgba(255, 255, 255, 0)));
+  background: linear-gradient(0deg, white 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+@media (min-width: 1110px) {
+  .hero-image {
+    height: calc(100vh - 110px);
+  }
+}
+/*# sourceMappingURL=heroImage.css.map */

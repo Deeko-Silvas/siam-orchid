@@ -1,0 +1,41 @@
+@import '../../variables.scss';
+
+header {
+    width: 100vw;
+	position: fixed;
+	top: 0;
+	z-index: 1000;
+	display: flex;
+    background-color: $header-background;
+    
+    .header-container {
+        padding: 8px 8px;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        max-width: $max-width;
+        margin: auto;
+        flex-direction: column;
+
+        .logo-menu-container {
+            display: flex;
+            justify-content: space-between;
+
+            .logo-container {
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+}
+
+@media (min-width: 1110px) {
+    header {
+        height: 110px;
+        
+        .header-container {
+            flex-direction: row;
+            width: 95%;
+            }
+	}
+}
