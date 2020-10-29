@@ -1,17 +1,29 @@
 @import '../../variables.scss';
 
 footer {
+    margin-top: $mobile-margin;
+    background-color: $footer-card-background;
+    padding: 30px 0;
+
+    box-shadow: $top-shadow;
+    
+
     .footer-content {
         display: flex;
         flex-direction: column;
         margin: 30px 0 15px;
         color: $footer-text-color;
         max-width: $max-width;
+        text-align: center;
+        
     }
 }
 
 @media (min-width: 805px) {
     footer {
+        margin-top: $desktop-margin;
+        
+
         .footer-content {
             flex-direction: row;
             justify-content: space-between;
@@ -19,6 +31,7 @@ footer {
             margin: auto;
             margin-top: 30px;
             align-items: stretch;
+            text-align: left;
         }
     }
 }

@@ -1,9 +1,22 @@
+@import '../../variables.scss';
+
+.statement-container2 {
+    width: 100%;
+    margin-top: $mobile-margin + $header-height-mobile;
+    margin-bottom: $mobile-margin;
+    box-shadow: $both-shadow;
+    padding: 30px 0;
+
+    background-color: #BBC9BD;
+
+}
+
 .reservations {
     text-align: center;
-    margin: 95px auto 30px;
+    margin: 1em auto auto;
     padding: 0 20px;
-    border-left: 2px solid palevioletred;
-    border-right: 2px solid palevioletred;
+    border-left: 2px solid $footer-card-background;
+    border-right: 1px solid $footer-card-background;
     width: 90%;
 
     h2,
@@ -17,10 +30,17 @@
 }
 
 @media (min-width: 1110px) {
+    .statement-container2 {
+        margin-top: $desktop-margin + $header-height-desktop;
+        margin-bottom: $desktop-margin;
+    
+    }
+
     .reservations {
-        margin: 190px auto 120px;
+        margin: auto;
         padding: 0 50px;
         width: 95%;
         max-width: 1600px;
+        border-width: 4px;
     }
 }

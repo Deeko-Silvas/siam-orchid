@@ -1,6 +1,7 @@
 import React from 'react';
 import HeroSlider from '../hero-slider/heroSlider';
 import Covid from '../covid-statement/covid';
+import Spotlight from '../spotlight/spotlight';
 import ImageSlider from '../image-slider/imageSlider';
 import Map from '../map/map';
 
@@ -10,6 +11,7 @@ const Home = ({ WebsiteDetails }) => {
             <h1 className="accessibility">{`${WebsiteDetails.details.name} home page`}</h1>
             <HeroSlider slider={WebsiteDetails.heroSlider} />
             <Covid name={WebsiteDetails.details.name} />
+            <Spotlight spotlight={WebsiteDetails.spotlightIntimate}/>
             <ImageSlider images={WebsiteDetails.imageGallery} />
             <Map 
                 contact={WebsiteDetails.contact}

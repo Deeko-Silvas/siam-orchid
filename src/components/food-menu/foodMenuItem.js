@@ -16,10 +16,18 @@ const FoodMenuItem = ({ item }) => {
                         )
                     })}
                 </ul>
-                <h6 className="menu-food-item-price">
+                {item.price > 0 ?
+                <h6 className="menu-food-item-price-list">
                     {`£${item.price}`}
-                </h6>
+                </h6> : null}
             </div>
+            {item.options.length > 0 ? 
+                    item.options.map((option, index) => {
+                        return (
+                            <h6 className="price-options">{option}: £{parseFloat(item.optionsPrice[index]).toFixed(2)}</h6>
+                        )
+                }) : null
+            }
             <p>{item.decription}</p>
         </div>
     )

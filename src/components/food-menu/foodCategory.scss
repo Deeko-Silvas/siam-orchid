@@ -1,12 +1,13 @@
 @import '../../variables.scss';
 
 .menu-food-category-container {
-    width: calc(100% - 10px);
-    margin: 5px;
-    padding: 10px;
+    width: 100%;
+    margin: 15px 0;
+    padding: 15px 10px 10px;
     background-color: white;
-    border-radius: 10px;
     max-width: 1620px;
+
+    box-shadow: $bottom-shadow;
 
     .menu-food-category-inner-container {
         padding: 0 5px 10px;
@@ -75,7 +76,7 @@
     .menu-food-category-container {
         width: calc(100% - 30px);
         margin: 30px 15px;
-        padding: 20px;
+        padding: 30px;
     
         .menu-food-category-inner-container {
             height: auto;
@@ -103,8 +104,8 @@
     }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1110px) {
     .menu-food-category-container {
-        margin: 30px auto;
+        margin: 40px auto;
     }
 }

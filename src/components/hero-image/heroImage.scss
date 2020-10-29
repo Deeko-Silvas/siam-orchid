@@ -7,6 +7,8 @@
     background-size: cover;
     position: relative;
 
+    background-attachment: fixed;
+
     .blend {
         position: absolute;
         left: 0;
@@ -22,6 +24,18 @@
             bottom: 0;
             background: linear-gradient(0deg, $header-background 0%, rgba(255,255,255,0) 100%);
         }
+    }
+
+    .shadow-overlay {
+        position: absolute;
+        left: -5%;
+        top: 0%;
+        width: 110%;
+        height: 100%;
+        background-color: transparent;
+        box-shadow: $inset-bottom-shadow;
+        z-index: 20;
+        pointer-events: none;
     }
 }
 

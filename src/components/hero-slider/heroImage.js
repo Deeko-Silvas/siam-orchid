@@ -5,9 +5,7 @@ const HeroImage = ({ slide }) => {
 
   
     return (
-        <div className="hero-image">
-            
-        </div>
+        <div className="hero-image"></div>
     )
 }
 

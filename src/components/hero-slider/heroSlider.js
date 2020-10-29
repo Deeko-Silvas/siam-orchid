@@ -43,8 +43,9 @@ const HeroSlider = ({ slider }) => {
             <div className="hero-images-container">
                 {renderImages}
             </div>
-            <div className="blend top-blend"></div>
-            <div className="blend bottom-blend"></div>
+            <div className="shadow-overlay"></div>
+            {/* <div className="blend top-blend"></div> */}
+            {/* <div className="blend bottom-blend"></div> */}
         </div>
     )
 }

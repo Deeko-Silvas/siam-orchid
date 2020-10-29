@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,yBAAyB,CAAC;EACtB,KAAK,EAAE,IAAI;EAEX,UAAU,EAAE,MAAM;CAOrB;;AAVD,AAKI,yBALqB,CAKrB,EAAE,CAAC;EACC,WAAW,EAAE,oBAAoB;CAGpC;;AAGL,MAAM,EAAE,SAAS,EAAE,KAAK;EACpB,AAAA,yBAAyB,CAAC;IACtB,KAAK,EAAE,GAAG;IACV,YAAY,EAAE,IAAI;GAKrB;EAPD,AAII,yBAJqB,CAIrB,EAAE,CAAC;IACC,SAAS,EAAE,OAAO;GACrB",
+    "sources": [
+        "spotlightText.scss"
+    ],
+    "names": [],
+    "file": "spotlightText.css"
+}

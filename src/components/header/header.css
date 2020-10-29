@@ -1,6 +1,7 @@
 /* COLOURS */
 /* FONTS */
 /* HEADER */
+/* SHADOW */
 header {
   width: 100vw;
   position: fixed;
@@ -10,6 +11,8 @@ header {
   display: -ms-flexbox;
   display: flex;
   background-color: white;
+  -webkit-box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.4);
 }
 
 header .header-container {

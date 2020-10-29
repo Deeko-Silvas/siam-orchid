@@ -24,7 +24,8 @@ const ImageGallery = ({ images }) => {
             <Gallery 
                 photos={images}
                 direction={"column"} 
-                onClick={openLightbox}  
+                onClick={openLightbox} 
+                margin={"10"} 
             />
             <ModalGateway>
                 {viewerIsOpen ? (

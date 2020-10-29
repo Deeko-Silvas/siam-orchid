@@ -34,6 +34,18 @@
         }
     }
 
+    .shadow-overlay {
+        position: absolute;
+        left: -5%;
+        top: 0%;
+        width: 110%;
+        height: 100%;
+        background-color: transparent;
+        box-shadow: $inset-bottom-shadow;
+        z-index: 20;
+        pointer-events: none;
+    }
+
     .hero-images-container {
         @extend .absolute;
 
@@ -42,11 +54,12 @@
 
             background: linear-gradient(90deg, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0.3) 100%);
 
-
             .hero-image {
                 @extend .absolute;
                 opacity: 0;
                 transition: opacity 1.5s ease-in 1.5s;
+
+                background-attachment: fixed;
 
                 background-position: center;
                 background-repeat: no-repeat;
@@ -54,6 +67,8 @@
                 overflow-x: hidden;
 
                 z-index: 0;
+
+                box-shadow: $inset-bottom-shadow;
             }
 
             .dark-overlay {
@@ -135,7 +150,7 @@
         .hero-images-container {
     
             .hero-image-container {
-                background: linear-gradient(90deg, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0) 65%);
+                background: linear-gradient(90deg, rgba(255,255,255,0.8) 40%, rgba(255,255,255,0) 50%);
 
             }
         }

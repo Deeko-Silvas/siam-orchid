@@ -5,10 +5,15 @@ $max-width: 1600px;
 $header-background: rgb(255, 255, 255);
 $body-background: rgb(255, 255, 255);
 
-$main-text-color: #32373B;
+// $body-background: #e3dfff;
+$body-background: #EAECE9;
+
+
+$main-text-color: #262626;
+
 
 $nav-hover-color: #e17f76;
-$nav-button-color: black;
+$nav-button-color: #262626;
 
 $footer-text-color: white;
 $footer-card-background: #e17f76;
@@ -21,3 +26,14 @@ $main-second-font: sans-serif;
 /* HEADER */
 $header-height-mobile: 65px;
 $header-height-desktop: 110px;
+
+/* SHADOW */
+$top-shadow: 0px -1px 12px 0px rgba(0,0,0,0.4);
+$bottom-shadow: 0px 1px 12px 0px rgba(0,0,0,0.4);
+$both-shadow: $top-shadow, $bottom-shadow;
+$inset-bottom-shadow: inset 0px -2px 12px 0px rgba(0,0,0,0.5);
+
+$mobile-margin: 50px;
+$desktop-margin: 100px;
+
+

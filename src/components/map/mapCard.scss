@@ -6,8 +6,10 @@
 	color: black;
 	width: 90%;
 	margin: auto;
-	margin-bottom: 30px;
+	margin-bottom: $mobile-margin;
     border-radius: 10px;
+
+    box-shadow: $bottom-shadow;
     
     p {
         margin-bottom: 10px;

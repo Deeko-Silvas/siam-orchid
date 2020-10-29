@@ -1,8 +1,32 @@
+@import '../../variables.scss';
+
 .image-gallery-container {
     width: 100%;
-    margin: auto;
+    margin: $mobile-margin auto;
     padding: 15px 0;
 }
+
+.react-photo-gallery--gallery {
+    div {
+        img {
+            box-shadow: $bottom-shadow;
+        }
+    }
+}
+
+ @media (max-width: 499px) {
+    .react-photo-gallery--gallery {
+        div {
+            img {
+                position: relative !important;
+                width: 100% !important;
+                height: auto !important;
+                top: 0 !important;
+                margin-bottom: 10px !important;
+            }
+        }
+    }
+ }
 
 @media (min-width: 1000px) {
     .image-gallery-container {

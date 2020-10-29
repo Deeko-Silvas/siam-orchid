@@ -7,6 +7,7 @@ header {
 	z-index: 1000;
 	display: flex;
     background-color: $header-background;
+    box-shadow: $bottom-shadow;
     
     .header-container {
         padding: 8px 8px;

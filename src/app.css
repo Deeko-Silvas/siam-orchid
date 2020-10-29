@@ -1,6 +1,7 @@
 /* COLOURS */
 /* FONTS */
 /* HEADER */
+/* SHADOW */
 @import url("https://fonts.googleapis.com/css2?family=Teko:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Shojumaru&display=swap");
@@ -28,7 +29,7 @@
 }
 
 body {
-  background-color: white;
+  background-color: #EAECE9;
   font-family: "rubik", sans-serif;
   color: #32373B;
   margin: 0;

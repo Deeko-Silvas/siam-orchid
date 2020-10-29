@@ -1,9 +1,23 @@
+/* COLOURS */
+/* FONTS */
+/* HEADER */
+/* SHADOW */
+.statement-container2 {
+  width: 100%;
+  margin-top: 115px;
+  margin-bottom: 50px;
+  -webkit-box-shadow: 0px -4px 12px 0px rgba(0, 0, 0, 0.5), 0px 4px 12px 0px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px -4px 12px 0px rgba(0, 0, 0, 0.5), 0px 4px 12px 0px rgba(0, 0, 0, 0.5);
+  padding: 30px 0;
+  background-color: #BBC9BD;
+}
+
 .reservations {
   text-align: center;
-  margin: 95px auto 30px;
+  margin: 1em auto auto;
   padding: 0 20px;
-  border-left: 2px solid palevioletred;
-  border-right: 2px solid palevioletred;
+  border-left: 2px solid #e17f76;
+  border-right: 1px solid #e17f76;
   width: 90%;
 }
 
@@ -17,11 +31,16 @@
 }
 
 @media (min-width: 1110px) {
+  .statement-container2 {
+    margin-top: 210px;
+    margin-bottom: 100px;
+  }
   .reservations {
-    margin: 190px auto 120px;
+    margin: auto;
     padding: 0 50px;
     width: 95%;
     max-width: 1600px;
+    border-width: 4px;
   }
 }
 /*# sourceMappingURL=reservations.css.map */

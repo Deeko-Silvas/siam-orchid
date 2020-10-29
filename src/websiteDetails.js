@@ -22,14 +22,14 @@ const WebsiteDetails = {
         instagram: ""
     },
     opening: [
-        "Monday - Thursday: 17:00 - 22:00",
-        "Friday - Saturday: 17:00 - 22:00",
+        "Monday - Thursday: 17:30 - 22:00",
+        "Friday - Saturday: 17:30 - 22:00",
         "Sunday: Closed"
     ],
     heroSlider: {
         images: [
             {
-                src: "traditional-cuisine.jpg",
+                src: "various-dishes.jpg",
                 darkOverlay: true,
                 overlayHeading: "Authentic Thai Cuisine",
                 overlayText: "Sample our delicious and authentic Thai cuisine, cooked to mouth watering perfection for you to enjoy either in the restaurant or to takeaway.",
@@ -64,7 +64,7 @@ const WebsiteDetails = {
         api: "",
         Latitude: "51.2074934",
         Longitude: "-1.4782539",
-        icon: "./images/logo/logo-circle-64x64.png",
+        icon: "./images/logo/logo-circle-32x32.png",
         link: "https://goo.gl/maps/Y1TRNEutLALh1jma9",
         directions: "https://goo.gl/maps/NrMJzcd9tWnk4WU49"
     },
@@ -78,7 +78,13 @@ const WebsiteDetails = {
             link: "Siam Orchod - Takeaway Menu.pdf"
         },
     ],
-    foodHeroImage: "various-dishes.jpg",
+    spotlightIntimate: {
+        image: "images/gallery/front-door.jpg",
+        alt: "Looking inside the front door of the restaurant", 
+        heading: "Intimate Dining Experience!",
+        text: "Inimate Restaurant Yada Yada Yada and all that bollocks."
+    },
+    foodHeroImage: "food-platter.jpg",
     imageGallery: [
         {
             thumb: "images/gallery/thumb/sweet-sour-prawn.jpg",
@@ -151,7 +157,7 @@ const WebsiteDetails = {
             height: 2592
         },
         {
-            thumb: "images/gallery/thumb/hicken-vegetables.jpg",
+            thumb: "images/gallery/thumb/chicken-vegetables.jpg",
             src: "images/gallery/chicken-vegetables.jpg",
             title: "Chicken With Vegetables",
             width: 5616,

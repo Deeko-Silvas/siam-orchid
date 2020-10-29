@@ -32,10 +32,13 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .footer-card .social-icons a {
-  margin-right: 15px;
+  margin: 0 15px;
 }
 
 .footer-card .social-icons a i {
@@ -64,6 +67,14 @@
   }
   .footer-card:last-of-type {
     margin-right: 0;
+  }
+  .footer-card .social-icons {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .footer-card .social-icons a {
+    margin: 0 15px 0 0;
   }
 }
 

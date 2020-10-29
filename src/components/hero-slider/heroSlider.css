@@ -1,6 +1,7 @@
 /* COLOURS */
 /* FONTS */
 /* HEADER */
+/* SHADOW */
 .absolute, .hero-slider-container .hero-images-container, .hero-slider-container .hero-images-container .hero-image-container, .hero-slider-container .hero-images-container .hero-image-container .hero-image, .hero-slider-container .hero-images-container .hero-image-container .dark-overlay, .hero-slider-container .hero-images-container .hero-image-container.top .hero-image {
   position: absolute;
   top: 0;
@@ -38,6 +39,19 @@
   background: linear-gradient(0deg, white 0%, rgba(255, 255, 255, 0) 100%);
 }
 
+.hero-slider-container .shadow-overlay {
+  position: absolute;
+  left: -5%;
+  top: 0%;
+  width: 110%;
+  height: 100%;
+  background-color: transparent;
+  -webkit-box-shadow: inset 0px -2px 12px 0px rgba(0, 0, 0, 0.5);
+          box-shadow: inset 0px -2px 12px 0px rgba(0, 0, 0, 0.5);
+  z-index: 20;
+  pointer-events: none;
+}
+
 .hero-slider-container .hero-images-container .hero-image-container {
   background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0.3)));
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.3) 100%);
@@ -47,11 +61,14 @@
   opacity: 0;
   -webkit-transition: opacity 1.5s ease-in 1.5s;
   transition: opacity 1.5s ease-in 1.5s;
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   overflow-x: hidden;
   z-index: 0;
+  -webkit-box-shadow: inset 0px -2px 12px 0px rgba(0, 0, 0, 0.5);
+          box-shadow: inset 0px -2px 12px 0px rgba(0, 0, 0, 0.5);
 }
 
 .hero-slider-container .hero-images-container .hero-image-container .dark-overlay {
@@ -124,8 +141,8 @@
     height: calc(100vh - 110px);
   }
   .hero-slider-container .hero-images-container .hero-image-container {
-    background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.6)), color-stop(65%, rgba(255, 255, 255, 0)));
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0) 65%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(40%, rgba(255, 255, 255, 0.8)), color-stop(50%, rgba(255, 255, 255, 0)));
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.8) 40%, rgba(255, 255, 255, 0) 50%);
   }
 }
 /*# sourceMappingURL=heroSlider.css.map */

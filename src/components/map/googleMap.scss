@@ -1,6 +1,9 @@
+@import '../../variables.scss';
+
 #googleMap {
 	height: 500px;
 	width: auto;
+	box-shadow: $both-shadow;
 }
 
 @media (min-width: 1110px) {

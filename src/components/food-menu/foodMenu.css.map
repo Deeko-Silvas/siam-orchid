@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,eAAe,CAAC;EACZ,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,MAAM;CACjB",
+    "mappings": "ACGA,aAAa;AAkBb,WAAW;AAIX,YAAY;AAIZ,YAAY;AD3BZ,AAAA,eAAe,CAAC;EACZ,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI,CAAC,CAAC,CC+BF,IAAI;CD9BnB;;AAED,MAAM,EAAE,SAAS,EAAE,MAAM;EACrB,AAAA,eAAe,CAAC;IACZ,MAAM,EAAE,IAAI,CAAC,CAAC,CC2BL,KAAK;GD1BjB",
     "sources": [
-        "foodMenu.scss"
+        "foodMenu.scss",
+        "../../variables.scss"
     ],
     "names": [],
     "file": "foodMenu.css"
